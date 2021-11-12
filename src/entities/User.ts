@@ -1,10 +1,10 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-@Entity('contacts')
-class Contact {
+@Entity('users')
+class User {
 
   @PrimaryGeneratedColumn()
-  contact_id: number;
+  user_id: number;
 
   @Column("text")
   first_name: string;
@@ -16,8 +16,8 @@ class Contact {
   email: string;
 
   @Column("text")
-  phone: string;
+  password: string;
 
 }
 
-export { Contact }
+export { User }

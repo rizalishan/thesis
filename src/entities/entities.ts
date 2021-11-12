@@ -1,9 +1,13 @@
-import { Contact } from "./Contact";
-import { Product } from "./Product";
+import { Education } from "./Education";
+import { Experience } from "./Experience";
+import { Employee } from "./Employee";
+import { User } from "./User";
 
 const Entities = [
-  Product,
-  Contact
+  Education,
+  Experience,
+  Employee,
+  User
 ]
 
 export default Entities
